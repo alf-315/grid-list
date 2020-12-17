@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row" *ngFor="let product of products; let i=index;">
+    <div class="rank">
+      <div class="rank-txt">{{product.productId}}</div>
+    </div>
+    <div class="image">
+        <img src="{{product.imagePath}}" class="image-content"/>
+    </div>
+    <div class="content">
+      <div class="product-title">{{product.title}}</div>
+    </div>
+  </div>
+</div>
