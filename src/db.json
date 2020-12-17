@@ -1,16 +1,5 @@
-import { Component, OnInit, } from '@angular/core';
-
-// import * as data from '../db.json';
-
-
-@Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
-})
-export class AppComponent implements OnInit{
-  title = 'grid-list';
-  products = [
+{
+  "products": [
     {
       "productId": "1",
       "imagePath": "https://picsum.photos/300",
@@ -88,8 +77,5 @@ export class AppComponent implements OnInit{
       "ePacket": true,
       "createdAt": "October 6, 2020 at 9:17:15 AM UTC-4"
     }
-  ];  
-  ngOnInit() {
-    // this.products = data.default.products;
-  }
+  ]
 }

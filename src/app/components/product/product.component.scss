@@ -1,0 +1,122 @@
+.rank {
+  background-color: white;
+  width: 130px;
+  height: 130px;
+  border-radius: 14px;
+  display: flex;
+  margin-right: 6px;
+}
+
+.rank-txt {
+  color: #888ca9;
+  font-size: 35px;
+  margin: auto;
+  font-weight: 900;
+  font-family: "Avenir";
+}
+
+.image {
+  background-color: white;
+  width: 130px;
+  height: 130px;
+  border-radius: 14px;
+  display: flex;
+  margin-right: 6px;
+}
+
+.image-content {
+  width: 100%;
+  height: 100%;
+  border-radius: 14px;
+}
+
+.content {
+  background-color: white;
+  width: 790px;
+  border-radius: 14px;
+  display: flex;
+  margin-right: 6px;
+  padding: 31px 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-sub-detail {
+  display: flex;
+  align-items: center;
+  .check {
+    margin-left: 10px;
+  }
+  .tags {
+    height: 19px;
+    font-size: 8px;
+    font-weight: 800;
+    font-family: "Avenir";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3px;
+    border-radius: 30px;
+  }
+  .day-ago {
+    background-color: #f1f2f6;
+    width: 62px;
+    color: #a9b0be;
+  }
+  .dropship {
+    background-color: #f2e6ff;
+    width: 56px;
+    color: #8f23fe;
+  }
+  .cloud {
+    background-color: #f7e1e1;
+    width: 28px;
+  }
+  .eye {
+    background-color: #f4eebd;
+    width: 28px;
+  }
+  .setting {
+    background-color: #dbfaff;
+    width: 28px;
+  }
+}
+
+.product-title {
+  color: #3f4457;
+  font-weight: 900;
+  font-size: 22px;
+  font-family: "Avenir";
+  line-height: 30px;
+  align-items: center;
+}
+
+.product-statistics {
+  display: flex;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: "Avenir";
+  color: #d3d6dc;
+  margin-top: 11px;
+  align-items: center;
+  line-height: 27px;
+}
+
+.product-price {
+  font-family: "Avenir";
+  font-weight: 900;
+  font-size: 26px;
+  color: #0fcb5a;
+  line-height: 36px;
+}
+
+.product-action {
+  display: flex;
+  color: #dfe1e6;
+  [class*="icon-"] {
+    margin-left: 16px;
+    margin-right: 0px;
+    font-size: 20px;
+    height: 100%;
+  }
+}
